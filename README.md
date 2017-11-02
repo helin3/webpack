@@ -15,10 +15,19 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init webpack my-project
+$ vue init helin3/webpack#develop my-project
 $ cd my-project
 $ npm install
 $ npm run dev
+```
+The second step can be replaced: 
+```
+remote master:
+$ vue init helin3/webpack my-project
+remote develop:
+$ vue init helin3/webpack#develop my-project
+local template
+$ vue init ~/path/to/webpack-template my-project
 ```
 
 The development server will run on port 8080 by default. If that port is already in use on your machine, the next free port will be used.
@@ -56,4 +65,15 @@ You can fork this repo to create your own boilerplate, and use it with `vue-cli`
 
 ``` bash
 vue init username/repo my-project
+```
+```The second step can be replaced: 
+remote master:
+  vue init username/repo my-project
+remote develop:
+  vue username/repo#branch my-project
+local template
+  vue init ~/path/to/webpack-template my-project
+```
+More vue-cli commond: 
+  https://github.com/vuejs/vue-cli
 ```
